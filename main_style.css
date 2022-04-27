@@ -1,0 +1,213 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url('tt.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+.banner_info a{
+   color:#fff;
+   font-family: 'Oswald', sans-serif;
+   font-size:4em;
+   margin-bottom:30px;
+}
+.about{
+    column-count: 2;
+    text-align:justify;
+  }
+  .about p{height:50%;
+  	width:50%;
+  	font-size:1em;
+  	color:white;
+border-radius: bold;  }
+  .about p:first-of-type:first-letter {
+    font-size:3em;
+    float: left;
+    /*adjust the following properties at your own risk*/
+    line-height: 50%;
+    margin:0.1em 0.1em 0.1em -0.05em;
+    border-radius: bold;
+    	color: white;
+  }
+  
+  .about img{
+    height:auto;
+    width:10%;
+	margin-right: right
+	
+  }
+  .ab h1{
+  	color:white;
+  }
+  
+  .about h2{
+   column-span: all;
+  }
+
+
+.menu{
+	width:100%; 
+	height:100px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+	width: 25%;
+	line-height: 80px;
+	float:left;
+}
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+}
+.rightmenu {
+	width: 75%;
+	height:100%;
+	float: right;
+	
+}
+.rightmenu ul{
+	margin-left: 200px
+}
+.rightmenu ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+.rightmenu ul li a{
+	color: white;
+	font-weight: bold;
+}
+.rightmenu ul li:hover{
+	color: orange;
+}
+.rightmenu ul li a:hover{
+	color: orange;
+}
+.text{
+	width:100%;
+	margin-top:185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+.text h4{
+	font-size: 14px;
+}
+.text h1{
+	font-size: 62px;
+	font-weight: 700px;
+	margin:14px 0px;
+	
+}
+.text h3{
+	font-size: 12px;
+}
+.text ul li a{
+	background-color: white;
+	border: none;
+	font-size:12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width:150px;
+	margin-top: 25px;
+	border:3px solid white;
+}
+#buttonone{
+	background-color: white;
+	border: none;
+	font-size:12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width:150px;
+	margin-top: 25px;
+	border:3px solid white;
+}
+#buttontwo{
+	background-color: white;
+	border: none;
+	font-size:12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width:150px;
+	margin-top: 25px;
+	border:3px solid white;
+}
+body{
+	margin:0;
+	padding: 0;
+	background: url(tt.jpg);
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 10px;
+	height: 42px;
+	background:#000;
+	color: #fff;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+.navigation {
+    float: left;
+    margin-right: 3%;
+    margin-top: 1px;
+}
+.navigation {
+   margin-right: 30%;
+}
+.navigation {
+    margin-right: 23%;
+    margin-top: 0;
+}
+.navbar {
+   min-height:100%;
+   margin-bottom:0;
+   border:none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a span{
+	display:block;
+	border: none;
+}
+
+.navbar-nav {
+   margin:0;
+   float:right;
+}
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+    font-size:12px;
+}
+.dropdown-menu {
+    right: 0 !important;
+    left:inherit;
+}    
+.nav_bottom{
+	background:none;
+}.nav .open>a, .nav .open>a:hover, .nav .open>a:focus, .nav>li>a:hover, .nav>li>a:focus{
+    background-color:#ffa417 !important;
+    border-color:#ffa417;
+    color:#fff !important;
+}

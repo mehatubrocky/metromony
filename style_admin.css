@@ -1,0 +1,220 @@
+body{
+	background: hsl(0,100%,90%);
+	margin: 0px;
+	border: 0px;
+}
+#header{
+	width: auto;
+	height: 110px;
+	background: hsl(0,100%,50%);
+	color: white;
+}
+#leftmenu{float: right;
+    
+    background: hsl(0,100%,50%);
+    color: white;
+
+}
+#sidemenu{
+	float: left;
+	width: 300px;
+	background: hsl(0,100%,75%);
+	color: white;
+	
+}
+#basic_1_right{
+	float:right;
+	width:300px;
+	background: hsl(0,100%,75%);
+	color: white;
+}
+#data{
+	width: auto;
+	background:hsl(0,100%,50%);
+	color: white;
+	padding-left:330px;
+}
+#head_img{
+	background:white;
+	border-radius:50px;
+}
+#sidemenu.ul li{
+	display: inline-block;
+	padding-bottom: 10px;
+	
+}
+.basic_1-left li {
+    padding-left:0;
+    display: inline-block;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+.basic_1-left li a{
+      color:#555;  
+}
+label.tab { 
+       display:inline-block; 
+       margin-left: 40px; 
+}
+label.family h2{
+	text-align: center;
+}
+.img1 li {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      position: relative;
+  width: 50%;
+}
+li{
+	padding-bottom: 30px;
+	border-bottom: 3px solid grey;
+}
+li:hover {
+	background: black;
+	color: white;
+	padding-left:10px;
+    -moz-transition: padding-left .3s ease-in;
+    -o-transition: padding-left  .3s ease-in;
+    -webkit-transition: padding-left  .3s ease-in;
+    transition: padding-left  .3s ease-in;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+
+
+#back{
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#back:hover{
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+#back{
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#back:hover{
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+img{
+	width: 70px;
+	height: 70px;
+	}
+.btn_1 {
+    padding: 6px 20px;
+}
+.btn_1{
+    background: #c32143;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding: 8px 25px;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    margin: 1em 0 0 0;
+    font-size: 0.85em;
+}
+.btn_1:hover{
+	background:#ffa417;
+}
+.form-item.form-type-textfield.form-item-name {
+    margin-bottom: 1em;
+    
+}
+.form-control:focus, .form-text:focus, .form-textarea:focus, .form-select:focus{
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: none !important;
+}
+.form-text, .form-textarea, .form-select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #999;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    outline: none;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.tab_box {
+    margin-bottom: 2em;
+}
+.tab_box h1{
+	color:black;
+	font-size:1.2em;
+}
+.tab_box p{
+	color:#555;
+	font-size:0.85em;
+	line-height:1.8em;
+}
+.basic_1-left{
+	padding-left:0;
+}
+.basic{
+position: center;
+}
+.input-group1 input[type=text] {
+    border: 1px solid #ccc;  
+  }
+.basic_1 {
+    margin-bottom: 2em;
+}
+.basic_1 h3{
+	color: #c32143;
+    font-size: 1.2em;
+}
+table.table_working_hours {
+    width: 100%;
+}
+.table_working_hours tr {
+    border: 0;
+}
+td.day_label {
+    color: #777;
+    padding:5px 0;
+}
+.table_working_hours tr{
+    color: #000;
+    font-size: 1.85em;
+    text-transform: capitalize;
+}
+.table_working_hours tr.opened_1 td {
+    padding: 0 0 5px;
+}
+.col-md-8.profile_left {
+    padding-left: 0;
+}
+.col-sm-4.row_2 {
+    padding-left: 0;
+}
+.profile_left h2{
+    color:#000;
+    font-size:1.5em;
+    margin-bottom:1em;
+    font-family: 'Oswald', sans-serif;
+}
+.col_3 {
+    margin-bottom:3em;
+}
